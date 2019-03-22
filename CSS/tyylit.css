@@ -11,13 +11,24 @@ img	{
 	clear: both;
 	float: right;
 }
+
 th{
 	text-align:left;
 	border: 1px solid black;
+	color: white;
+	background: red;
 }
 td	{
 	width: 200px;
 	border: 1px solid black;
+
+}
+
+tr:nth-child(odd)	{
+	background:
+}
+tr:nth-child(even)	{
+	background: yellow;
 }
 table	{
 	border: 1px solid black;
