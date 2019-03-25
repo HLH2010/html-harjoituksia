@@ -1,0 +1,14 @@
+﻿body
+{
+}
+h1	{
+	font-type: Arial;
+	font-style: italic;
+	text-align: center;
+	font-size: 50px;
+	}
+img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}

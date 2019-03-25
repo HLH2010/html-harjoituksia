@@ -1,0 +1,18 @@
+﻿body
+{
+}
+h1{
+	font-type: Verdana;
+	font-size: 50px;
+	text-align: center;
+	margin: 0.1px;
+	padding: 0.1px;
+}
+address	{
+	text-align: center;
+}
+.telephone{
+	text-align: center;
+	margin-left: 0.1px;
+	margin-right: 0.1px;
+}
