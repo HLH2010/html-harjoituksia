@@ -1,0 +1,33 @@
+﻿body
+{
+}
+.thomppu	{
+	font-size: 50px;
+	font-weight: bold;
+	background: green;
+	border: 1px solid black;
+}
+.thchoco	{
+	font-size: 50px;
+	font-weight: bold;
+	background: brown;
+	border: 1px solid black;
+}
+.thlemon	{
+	font-size: 50px;
+	font-weight: bold;
+	background: yellow;
+	border: 1px solid black;
+}
+table	{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+#linkit	{
+	width: 300px;
+	background-image: linear-gradient(to left, yellow , cyan);
+}
+#ainekset	{
+	width: 600px;
+	background-image: linear-gradient(to left, cyan , yellow);
+}
