@@ -1,0 +1,19 @@
+﻿body
+{
+}
+.otsikko	{
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+}
+#vasen	{
+	text-align: left;
+}
+th, td	{
+	text-align: center;
+	border: 1px solid black;
+}
+table	{
+	border: 3px solid black;
+	border-collapse: collapse;
+}

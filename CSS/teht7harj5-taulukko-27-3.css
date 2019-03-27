@@ -1,0 +1,11 @@
+﻿body
+{
+}
+table, th, tr, td	{
+	border: 1px solid black;
+	border-collapse: collapse;
+	
+}
+#uloin	{
+	border: 10px solid black;
+}

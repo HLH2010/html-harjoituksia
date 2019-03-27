@@ -1,41 +1,65 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<link href="css/Lomake 25-3.css" type="text/css" rel="stylesheet">
 <head>
     <meta charset="utf-8" />
     <title>Lomake</title>
 </head>
 <body>
 
-<h1>Tiedon keruu</h1>
+<table>
 
-<form action="mailto!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!>
-	Nimesi:<input type="text"><br>
-	Sähköposti:<input type="text"><br>
-	Sijainti:<select>
+<form action="mailto">
+	<tr>
+		<th colspan="2">Tiedon kerjuu!</th>
+	
+	<tr>
+		<td class="info">Nimesi:</td><td><input type="text" id="nimiruutu" placeholder="Suku Etu"></td>
+	</tr>
+	<tr>
+		<td class="info">Sähköposti:</td><td><input type="text" placeholder="e-mail"></td>
+	</tr>
+	<tr>
+		<td class="info">Sijainti:</td><td><select>
 			<option value="vantaa">Vantaa</option>
 			<option value="kerava">Kerava</option>
 			<option value="Tuppukylä">Tuppukylä</option>
 			<option value="Metropoli">Metropoli</option>
-			</select><br>
-	Sukupuoli:
-	<input type="radio" name="gender" value="male" checked> Male<br>
-	<input type="radio" name="gender" value="female"> Female<br>
-	<input type="radio" name="gender" value="other"> kumpaakin<br>
-	Syntymäpäivä:<input type="date"><br>
-	Arvosana koulutukselle: <input type="number" min="1" max="11"><br>
-	Tulen kouluun:<br>
-	<input type="checkbox" value="hissi">Hissi<br>
-	<input type="checkbox" value="traktori">Traktori<br>
-	<input type="checkbox" value="laiva">Laiva<br>
-	<input type="checkbox" value="wartburg">Wartburg<br>
-	<input type="checkbox" value="kainalosauvat">Kainalosauvat<br>
-	<input type="checkbox" value="pyörä">Pyörä<br>
-Kommentit:<br> <textarea name="Sana on vapaa" rows="10" cols="30"></textarea><br><br>
+			</select></td>
+	</tr>
+	<tr>
+		<td class="info">Sukupuoli:</td>
+		<td><input type="radio" name="gender" value="male" checked> Male<br>
+		<input type="radio" name="gender" value="female"> Female<br>
+		<input type="radio" name="gender" value="other"> kumpaakin</td>
+	</tr>
+	<tr>
+		<td class="info">Syntymäpäivä:</td><td><input type="date"></td>
+	</tr>
+	<tr>
+		<td class="info">Arvosana koulutukselle:</td><td><input type="number" placeholder="asteikolla:1-10" min="1" max="11"></td>
+	</tr>
+	<tr>
+		<td class="info">Tulen kouluun:</td>
+		<td>
+		<input type="checkbox" value="hissi">Hissi
+		<input type="checkbox" value="traktori">Traktori
+		<input type="checkbox" value="laiva">Laiva<br>
+		<input type="checkbox" value="wartburg">Wartburg
+		<input type="checkbox" value="kainalosauvat">Kainalosauvat
+		<input type="checkbox" value="pyörä">Pyörä</td>
+	</tr>
+	<tr>
+		<td class="info">Kommentit:</td><td><textarea placeholder="Sana on vapaa" rows="5" cols="40"></textarea></td>
+	</tr>
+	<tr>
+		<td id="painike" colspan="2"><input id="nappi" type="submit"></td>
+	</tr>
+	
 
-
-<input type="submit">
 </form>
 
+</table>
 </body>
 </html>
