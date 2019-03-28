@@ -14,13 +14,16 @@ h1	{
 	font-family: georgia;
 	text-align: center;
 }
-h2	{
+h2, h3	{
 	text-align: center;
-	line-height: 19px;
+	
 }
 a:link {
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
+}
+p	{
+	line-height: 19px;
 }
